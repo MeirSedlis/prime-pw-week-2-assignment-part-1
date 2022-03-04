@@ -28,10 +28,18 @@ pets += 2;
 const allowedPets = 2;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
+if( adventurous){
+    console.log ( 'Adventures are great!' );
+} //end if adventurous
+else{
+    console.log( 'How about we stay home?' );
+} //end if wimpy like Meir
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+if( luckyNumber === 2 && adventurous){
+    console.log( 'Roll the dice!');
+}
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
